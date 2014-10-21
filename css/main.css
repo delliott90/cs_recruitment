@@ -173,6 +173,96 @@ a {
     background-repeat: no-repeat;
 }
 
+.myth-photo-01 {
+    background-image: url("../img/myth-photo-01.jpg");
+    height: 420px; /* always set the height image height - 200 px to allow for animation */
+    width: 100%;
+    background-repeat: no-repeat;
+    /*padding-top: 200px;*/
+
+}
+
+.myth-photo-02 {
+    background-image: url("../img/careers_doctor.png");
+    height: 420px; /* always set the height image height - 200 px to allow for animation */
+    width: 100%;
+    background-repeat: no-repeat;
+    /*padding-top: 200px;*/
+
+}
+
+.myth-photo-03 {
+    background-image: url("../img/careers_doctor.png");
+    height: 420px; /* always set the height image height - 200 px to allow for animation */
+    width: 100%;
+    background-repeat: no-repeat;
+    /*padding-top: 200px;*/
+
+}
+
+.myth-photo-04 {
+    background-image: url("../img/myth-photo-01.jpg");
+    height: 420px; /* always set the height image height - 200 px to allow for animation */
+    width: 100%;
+    background-repeat: no-repeat;
+    /*padding-top: 200px;*/
+
+}
+
+.myth-photo-05 {
+    background-image: url("../img/careers_doctor.png");
+    height: 420px; /* always set the height image height - 200 px to allow for animation */
+    width: 100%;
+    background-repeat: no-repeat;
+    /*padding-top: 200px;*/
+
+}
+
+.myth-photo-06 {
+    background-image: url("../img/careers_doctor.png");
+    height: 420px; /* always set the height image height - 200 px to allow for animation */
+    width: 100%;
+    background-repeat: no-repeat;
+    /*padding-top: 200px;*/
+
+}
+
+.myth-photo-07 {
+    background-image: url("../img/myth-photo-01.jpg");
+    height: 420px; /* always set the height image height - 200 px to allow for animation */
+    width: 100%;
+    background-repeat: no-repeat;
+    /*padding-top: 200px;*/
+
+}
+
+.myth-photo-08 {
+    background-image: url("../img/careers_doctor.png");
+    height: 420px; /* always set the height image height - 200 px to allow for animation */
+    width: 100%;
+    background-repeat: no-repeat;
+    /*padding-top: 200px;*/
+
+}
+
+.myth-photo-09 {
+    background-image: url("../img/careers_doctor.png");
+    height: 420px; /* always set the height image height - 200 px to allow for animation */
+    width: 100%;
+    background-repeat: no-repeat;
+    /*padding-top: 200px;*/
+
+}
+
+.myth-photo-10 {
+    background-image: url("../img/careers_doctor.png");
+    height: 420px; /* always set the height image height - 200 px to allow for animation */
+    width: 100%;
+    background-repeat: no-repeat;
+    /*padding-top: 200px;*/
+
+}
+
 .copyright {
     text-align: right;
     margin: 5px 20px -30px 0;
