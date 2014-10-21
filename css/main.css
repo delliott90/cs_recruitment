@@ -183,7 +183,7 @@ a {
 }
 
 .myth-photo-02 {
-    background-image: url("../img/careers_doctor.png");
+    background-image: url("../img/myth-photo-01.jpg")
     height: 420px; /* always set the height image height - 200 px to allow for animation */
     width: 100%;
     background-repeat: no-repeat;
@@ -192,7 +192,7 @@ a {
 }
 
 .myth-photo-03 {
-    background-image: url("../img/careers_doctor.png");
+    background-image: url("../img/myth-photo-01.jpg");
     height: 420px; /* always set the height image height - 200 px to allow for animation */
     width: 100%;
     background-repeat: no-repeat;
@@ -210,7 +210,7 @@ a {
 }
 
 .myth-photo-05 {
-    background-image: url("../img/careers_doctor.png");
+    background-image: url("../img/myth-photo-01.jpg");
     height: 420px; /* always set the height image height - 200 px to allow for animation */
     width: 100%;
     background-repeat: no-repeat;
