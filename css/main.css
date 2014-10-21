@@ -67,6 +67,18 @@ a {
     background-color: #8d3aff;
 }
 
+.orange-cell {
+    background-color: #ffab81;
+}
+
+.green-cell {
+    background-color: #85fe7d;
+}
+
+.red-cell {
+    background-color: #fd7b7b;
+}
+
 
 .bg-image {
     background-image: url("../img/background.png");
@@ -138,6 +150,28 @@ a {
     background-repeat: no-repeat;
 }
 
+.coop-photo-01 {
+    background-image: url("../img/coop_work_room.jpg");
+    height: 420px; /* always set the height image height - 200 px to allow for animation */
+    width: 100%;
+    background-repeat: no-repeat;
+    /*padding-top: 200px;*/
+
+}
+
+.coop-photo-02 {
+    background-image: url("../img/coop_remoteCar.jpg");
+    height: 420px; /* always set the height image height - 200 px to allow for animation */
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.coop-photo-03 {
+    background-image: url("../img/coop_debtFree.jpg");
+    height: 420px; /* always set the height image height - 200 px to allow for animation */
+    width: 100%;
+    background-repeat: no-repeat;
+}
 
 .copyright {
     text-align: right;
