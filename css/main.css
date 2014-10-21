@@ -1,0 +1,394 @@
+html, body {
+    font-size: 1em;
+    line-height: 1.4;
+    background-color: #bebebe;
+    font-family: helvetica neue, Arial;
+    color: #333;
+    padding: 0;
+    margin: 0 !important;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.wrapper {
+    overflow: hidden;
+    width: 1260;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+
+.section-heading {
+    font-size: 3em;
+    color: #000;
+    text-align: right;
+    position: absolute;
+    margin-top: 300px;
+    width: 90%;
+    opacity: 0.6;
+    padding: 0 10px;
+    background-color: #fff;
+}
+
+
+.content-table {
+    display:table;
+}
+
+.content-row {
+    display:table-row;
+}
+
+.content-cell {
+    display:table-cell;
+    width: 1220px;
+    padding: 0;
+    background-color: #fff;
+}
+
+
+.left-color-strip {
+    display: table-cell;
+    width: 40px;
+    padding: 0;
+}
+
+.purple-cell {
+    background-color: #8d3aff;
+}
+
+
+.bg-image {
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin: -15px 0 0 0;
+    background-color: #bebebe !important;
+}
+
+.title-container {
+    background-repeat: no-repeat;
+    height: 230px;
+    font-size: 3em;
+    margin-top: 25px;
+}
+
+.title-cap {
+    font-weight: bold;
+    color: #fff;
+}
+
+.careers-square {
+    background-image: url("../img/careers_square.png");
+}
+.myths-square {
+    background-image: url("../img/myths_square.png");
+}
+.next-steps-square {
+    background-image: url("../img/next_steps_square.png");
+}
+.coop-square {
+    background-image: url("../img/coop_square.png");
+}
+
+.content-box {
+    background-color: #fff;
+    padding: 25px;
+    margin: 25px 20%;
+}
+
+.full-width-image {
+    margin: 25px 0;
+    padding-top: 200px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.careers-photo-01 {
+    background-image: url("../img/careers_doctor.png");
+    height: 420px; /* always set the height image height - 200 px to allow for animation */
+    width: 100%;
+    background-repeat: no-repeat;
+    /*padding-top: 200px;*/
+
+}
+
+.careers-photo-02 {
+    background-image: url("../img/careers_xbox_controller.png");
+    height: 420px; /* always set the height image height - 200 px to allow for animation */
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.careers-photo-03 {
+    background-image: url("../img/careers_robot_arm.png");
+    height: 420px; /* always set the height image height - 200 px to allow for animation */
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.copyright {
+    text-align: right;
+    margin: 5px 20px -30px 0;
+    padding: 0;
+    font-size: 0.8em;
+}
+
+/* Homepage Styles */
+
+.homepage-box {
+    background-color: #fff;
+    border: 1px solid #333;
+    margin: 50px 10%;
+    padding: 50px;
+    /*width: 1075px;*/
+}
+
+.homepage-copyright {
+    font-size: 0.8em;
+}
+
+.homepage-button-cell {
+    display: table-cell;
+    width: 216px;
+    height: 216px;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+
+
+
+.homepage-button-text-back {
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    margin-top: 80%;
+    height: 20%;
+    color: #fff;
+}
+
+
+
+
+.homepage-button-text {
+    font-size: 17px;
+    padding: 10px;
+}
+
+
+.homepage-purple-border {
+    border-bottom: 6px solid #8d3aff;
+    border-top: 16px solid #888;
+
+}
+.homepage-purple-border-rollover {
+    border-bottom: 6px solid #8d3aff;
+    border-top: 16px solid #8d3aff;
+}
+
+.purple-back-rollover {
+    background-color: #8d3aff !important;
+    color: #000000 !important;
+}
+
+.homepage-orange-border {
+    border-bottom: 6px solid #ff5501;
+    border-top: 16px solid #888;
+}
+.homepage-orange-border-rollover {
+    border-bottom: 6px solid #ff5501;
+    border-top: 16px solid #ff5501;
+}
+
+.orange-back-rollover {
+    background-color: #ff5501 !important;
+    color: #000000 !important;
+}
+
+.homepage-green-border {
+    border-bottom: 6px solid #0fdb00;
+    border-top: 16px solid #888;
+}
+.homepage-green-border-rollover {
+    border-bottom: 6px solid #0fdb00;
+    border-top: 16px solid #0fdb00;
+}
+
+.green-back-rollover {
+    background-color: #0fdb00 !important;
+    color: #000000 !important;
+}
+
+.homepage-red-border {
+    border-bottom: 6px solid #c50000;
+    border-top: 16px solid #888;
+}
+.homepage-red-border-rollover {
+    border-bottom: 6px solid #c50000;
+    border-top: 16px solid #c50000;
+}
+
+.red-back-rollover {
+    background-color: #c50000 !important;
+    color: #000000 !important;
+}
+
+
+.homepage-button-spacer {
+    width:12px;
+    height: 216px;
+    display: table-cell;
+}
+
+
+.homepage-title {
+    font-size: 3.5em;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+
+/* Menu Styles */
+
+.menu-wrapper {
+    width: 100%;
+    position: fixed;
+    top: 80px;
+    z-index: 3;
+}
+
+.menu-container {
+    float: right;
+    position: relative;
+}
+
+.menu-container-pull {
+    margin-right: -195px;
+}
+
+.menu-section-row {
+    width: 250px;
+    display:table-row;
+}
+
+.menu-section {
+    padding: 2px 0;
+    min-height: 26px;
+    height: auto;
+    float: right;
+    width: 200px;
+}
+
+
+.menu-section-black {
+    background-color: #000;
+}
+.menu-section-purple {
+    background-color: #8d3aff;
+}
+.menu-section-orange {
+    background-color: #ff5501;
+}
+.menu-section-green {
+    background-color: #0fdb00;
+}
+.menu-section-red {
+    background-color: #c50000;
+}
+
+.menu-section-tip {
+    border-right: 15px solid;
+    border-top: 15px solid transparent !important;
+    border-bottom: 15px solid;
+    border-left: 15px solid transparent !important;
+    width: 0;
+    height: 0;
+    float: left;
+}
+
+.menu-section-tip-black {
+    border-color: #000;
+}
+.menu-section-tip-purple {
+    border-color: #8d3aff;
+}
+.menu-section-tip-orange {
+    border-color: #ff5501;
+}
+.menu-section-tip-green {
+    border-color: #0fdb00;
+}
+.menu-section-tip-red {
+    border-color: #c50000;
+}
+
+.menu-heading-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    padding: 3px 10px;
+}
+
+
+.menu-subheading-text {
+    font-size: 13px;
+    font-weight: normal;
+    color: #fff;
+    padding-left: 25px;
+    line-height: 16px;
+    border-bottom: 2px solid transparent;
+}
+
+.purple-menu-rollover:hover {
+    color: #000;
+    background-color: #b47eff;
+    border-color: #b47eff;
+}
+.orange-menu-rollover:hover {
+    color: #000;
+    background-color: #ffab81;
+    border-color: #ffab81;
+}
+.green-menu-rollover:hover {
+    color: #000;
+    background-color: #85fe7d;
+    border-color: #85fe7d;
+}
+.red-menu-rollover:hover {
+    color: #000;
+    background-color: #fd7b7b;
+    border-color: #fd7b7b;
+}
+
+
+.menu-subheading-spacer {
+    height: 8px;
+}
+
+#careerSubMenu {
+    display: none;
+}
+#coopSubMenu {
+    display: none;
+}
+#mythSubMenu {
+    display: none;
+}
+#nextStepsSubMenu {
+    display: none;
+}
+
+
+

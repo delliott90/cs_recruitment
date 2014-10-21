@@ -1,0 +1,20 @@
+$( document ).ready(function() {
+    $("#careerMenuLink").click(function(){
+        $("#careerSubMenu").toggle();
+    });
+    $("#coopMenuLink").click(function(){
+        $("#coopSubMenu").toggle();
+    });
+    $("#mythMenuLink").click(function(){
+        $("#mythSubMenu").toggle();
+    });
+    $("#nextStepsMenuLink").click(function(){
+        $("#nextStepsSubMenu").toggle();
+    });
+    $(".menu-container").mouseover(function(){
+        $(this).removeClass("menu-container-pull");
+    });
+    $(".menu-container").mouseout(function(){
+        $(this).addClass("menu-container-pull");
+    });
+});
