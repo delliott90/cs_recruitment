@@ -1,7 +1,7 @@
 html, body {
     font-size: 1em;
     line-height: 1.4;
-    background-color: #bebebe;
+    background-color: #ddd;
     font-family: helvetica neue, Arial;
     color: #333;
     padding: 0;
@@ -19,6 +19,7 @@ a {
     width: 1260px;
     margin: 0;
     padding: 0;
+    background-color: #bebebe;
 }
 
 .heading {
@@ -35,6 +36,7 @@ a {
     position: absolute;
     margin-top: 300px;
     width: 90%;
+    max-width: 1150px;
     opacity: 0.6;
     padding: 0 10px;
     background-color: #fff;
@@ -453,9 +455,11 @@ e.content-cell {
 
 .menu-wrapper {
     width: 100%;
+    max-width: 1260px;
     position: fixed;
     top: 80px;
     z-index: 3;
+    overflow: hidden;
 }
 
 .menu-container {

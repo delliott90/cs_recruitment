@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="20" selection-start="261" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8280">
+            <state line="28" column="42" selection-start="420" selection-end="420" vertical-scroll-proportion="0.61946905" vertical-offset="0" max-vertical-offset="8895">
               <folding />
             </state>
           </provider>
@@ -35,16 +35,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="39" selection-start="148" selection-end="148" vertical-scroll-proportion="18.0" vertical-offset="507" max-vertical-offset="1380">
+            <state line="5" column="39" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="507" max-vertical-offset="1380">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="careers.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="careers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/careers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="46" selection-start="985" selection-end="985" vertical-scroll-proportion="0.4906542" vertical-offset="0" max-vertical-offset="675">
+            <state line="16" column="54" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
               <folding />
             </state>
           </provider>
@@ -62,10 +62,8 @@
       <file leaf-file-name="careers.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/careers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="21" selection-start="521" selection-end="521" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="4020">
-              <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#15;n#div#0;n#body#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="25" column="4" selection-start="625" selection-end="625" vertical-scroll-proportion="-9.375" vertical-offset="150" max-vertical-offset="4110">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,7 +71,7 @@
       <file leaf-file-name="coop.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/coop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="42" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+            <state line="18" column="42" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="615">
               <folding />
             </state>
           </provider>
@@ -82,7 +80,7 @@
       <file leaf-file-name="coop.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/coop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="47" selection-start="4950" selection-end="4950" vertical-scroll-proportion="-19.5" vertical-offset="1107" max-vertical-offset="2805">
+            <state line="110" column="47" selection-start="5204" selection-end="5204" vertical-scroll-proportion="0.0" vertical-offset="1182" max-vertical-offset="2880">
               <folding />
             </state>
           </provider>
@@ -91,7 +89,7 @@
       <file leaf-file-name="myths.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myths.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="238" column="82" selection-start="14284" selection-end="14284" vertical-scroll-proportion="-8.875" vertical-offset="3357" max-vertical-offset="4935">
+            <state line="234" column="82" selection-start="14188" selection-end="14188" vertical-scroll-proportion="0.0" vertical-offset="3297" max-vertical-offset="4950">
               <folding />
             </state>
           </provider>
@@ -123,15 +121,17 @@
         <option value="$PROJECT_DIR$/myths.html" />
         <option value="$PROJECT_DIR$/coop.html" />
         <option value="$PROJECT_DIR$/careers.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/js/coop.js" />
         <option value="$PROJECT_DIR$/js/careers.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="x" value="-1906" />
+    <option name="y" value="-116" />
+    <option name="width" value="1507" />
+    <option name="height" value="848" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -159,7 +159,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,6 +221,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,7 +231,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
@@ -325,7 +325,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="-1906" y="-116" width="1507" height="848" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -334,7 +334,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23424879" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2006826" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -360,6 +360,69 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="20" selection-start="261" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="8280">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="39" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="507" max-vertical-offset="1380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/careers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="46" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="7" selection-start="1948" selection-end="1948" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/careers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="21" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="4020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/coop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="42" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="47" selection-start="4950" selection-end="4950" vertical-scroll-proportion="0.0" vertical-offset="1107" max-vertical-offset="2805">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myths.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="238" column="82" selection-start="14284" selection-end="14284" vertical-scroll-proportion="0.0" vertical-offset="3357" max-vertical-offset="4935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/floating_nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="29" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7860">
@@ -391,9 +454,7 @@
     <entry file="file://$PROJECT_DIR$/careers.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="18" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="2625">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#15;n#div#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -442,9 +503,7 @@
     <entry file="file://$PROJECT_DIR$/careers.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="125" column="45" selection-start="6645" selection-end="6645" vertical-scroll-proportion="0.0" vertical-offset="1611" max-vertical-offset="2625">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#15;n#div#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -501,37 +560,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="39" selection-start="148" selection-end="148" vertical-scroll-proportion="18.0" vertical-offset="507" max-vertical-offset="1380">
+        <state line="5" column="39" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="507" max-vertical-offset="1380">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/coop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="47" selection-start="4950" selection-end="4950" vertical-scroll-proportion="-19.5" vertical-offset="1107" max-vertical-offset="2805">
+        <state line="110" column="47" selection-start="5204" selection-end="5204" vertical-scroll-proportion="0.0" vertical-offset="1182" max-vertical-offset="2880">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myths.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="238" column="82" selection-start="14284" selection-end="14284" vertical-scroll-proportion="-8.875" vertical-offset="3357" max-vertical-offset="4935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/careers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="21" selection-start="521" selection-end="521" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="4020">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#15;n#div#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="20" selection-start="261" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8280">
+        <state line="234" column="82" selection-start="14188" selection-end="14188" vertical-scroll-proportion="0.0" vertical-offset="3297" max-vertical-offset="4950">
           <folding />
         </state>
       </provider>
@@ -545,7 +588,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/careers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="46" selection-start="985" selection-end="985" vertical-scroll-proportion="0.4906542" vertical-offset="0" max-vertical-offset="675">
+        <state line="16" column="54" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/careers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="4" selection-start="625" selection-end="625" vertical-scroll-proportion="-9.375" vertical-offset="150" max-vertical-offset="4110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="42" selection-start="420" selection-end="420" vertical-scroll-proportion="0.61946905" vertical-offset="0" max-vertical-offset="8895">
           <folding />
         </state>
       </provider>
