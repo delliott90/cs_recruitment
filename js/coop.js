@@ -16,7 +16,7 @@ $( document ).ready(function() {
 
         photoScroll(".coop-photo-01", 0, 2);
         photoScroll(".coop-photo-02", 1, 4);
-        photoScroll(".coop-photo-03", 2, 4);
+        photoScroll(".coop-photo-03", 2, 3);
 
         lastScrollTop = $(window).scrollTop();
     });

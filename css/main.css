@@ -16,7 +16,7 @@ a {
 
 .wrapper {
     overflow: hidden;
-    width: 1260;
+    width: 1260px;
     margin: 0;
     padding: 0;
 }
@@ -145,6 +145,34 @@ a {
 
 .careers-photo-03 {
     background-image: url("../img/careers_robot_arm.png");
+    height: 420px; /* always set the height image height - 200 px to allow for animation */
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.careers-photo-04 {
+    background-image: url("../img/careers_occulus_rift.png");
+    height: 420px; /* always set the height image height - 200 px to allow for animation */
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.careers-photo-05 {
+    background-image: url("../img/careers_asian_programmer.png");
+    height: 420px; /* always set the height image height - 200 px to allow for animation */
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.careers-photo-06 {
+    background-image: url("../img/careers_iphone.png");
+    height: 420px; /* always set the height image height - 200 px to allow for animation */
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.careers-photo-07 {
+    background-image: url("../img/careers_coins.png");
     height: 420px; /* always set the height image height - 200 px to allow for animation */
     width: 100%;
     background-repeat: no-repeat;
