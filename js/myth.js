@@ -1,43 +1,132 @@
 $( document ).ready(function() {
 
-    const SCROLLAMOUNT = 2;
-    const DOWNSCROLLOFFSETLIMIT = -200;
-    const UPSCROLLOFFSETLIMIT = 0;
-    var scrollDirectionDown = true;
-    var lastScrollTop = $(window).scrollTop();
-
-
-    var photoOffsetArray = [$(".myth-photo-01").offset().top, $(".myth-photo-02").offset().top, $(".myth-photo-03").offset().top, $(".myth-photo-04").offset().top, $(".myth-photo-05").offset().top, $(".myth-photo-06").offset().top, $(".myth-photo-07").offset().top, $(".myth-photo-08").offset().top, $(".myth-photo-09").offset().top, $(".myth-photo-10").offset().top];
-    var scrollOffsetArray = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-
-    $(window).scroll(function() {
-        scrollDirectionDown = ($(window).scrollTop() > lastScrollTop);
-
-
-        photoScroll(".myth-photo-01", 0, 2, -200);
-        photoScroll(".myth-photo-02", 1, 4, -200);
-        photoScroll(".myth-photo-03", 2, 4, -200);
-        photoScroll(".myth-photo-04", 3, 6, -150);
-        photoScroll(".myth-photo-05", 4, 8, -100);
-        photoScroll(".myth-photo-06", 5, 10, -200);
-        photoScroll(".myth-photo-07", 6, 12, -200);
-        photoScroll(".myth-photo-08", 7, 14,  -200);
-        photoScroll(".myth-photo-09", 8, 16, -200);
-        photoScroll(".myth-photo-10", 9, 18, -200);
-
-        lastScrollTop = $(window).scrollTop();
+    $("#myth_01_box").mouseover(function(){
+        $("#myth_01_box").addClass("myth-border-rollover");
+        $("#myth_01_box").removeClass("myth-border");
+        $("#myth_01_content").toggle();
+        $("#myth_01_title").toggle();
+    });
+    $("#myth_01_box").mouseout(function(){
+        $("#myth_01_box").removeClass("myth-border-rollover");
+        $("#myth_01_box").addClass("myth-border");
+        $("#myth_01_content").toggle();
+        $("#myth_01_title").toggle();
     });
 
-    var photoScroll = function(photoOffsetDOM, index, offsetModifier, downscrollOffsetLimit){
-        if (($(window).scrollTop() > (photoOffsetArray[index] - photoOffsetArray[index]/offsetModifier)) && (scrollOffsetArray[index] > downscrollOffsetLimit) && scrollDirectionDown) {
-            var scrollOffsetStyle = "0 " + (scrollOffsetArray[index]-=5) + "px";
-            $(photoOffsetDOM).css('background-position', scrollOffsetStyle);
+    $("#myth_02_box").mouseover(function(){
+        $("#myth_02_box").addClass("myth-border-rollover");
+        $("#myth_02_box").removeClass("myth-border");
+        $("#myth_02_content").toggle();
+        $("#myth_02_title").toggle();
+    });
+    $("#myth_02_box").mouseout(function(){
+        $("#myth_02_box").removeClass("myth-border-rollover");
+        $("#myth_02_box").addClass("myth-border");
+        $("#myth_02_content").toggle();
+        $("#myth_02_title").toggle();
+    });
 
-        } else if(($(window).scrollTop() < (photoOffsetArray[index] - photoOffsetArray[index]/offsetModifier)) && (scrollOffsetArray[index] < UPSCROLLOFFSETLIMIT) && !scrollDirectionDown) {
-            var scrollOffsetStyle = "0 " + (scrollOffsetArray[index]+=5) + "px";
-            $(photoOffsetDOM).css('background-position', scrollOffsetStyle);
-        }
+    $("#myth_03_box").mouseover(function(){
+        $("#myth_03_box").addClass("myth-border-rollover");
+        $("#myth_03_box").removeClass("myth-border");
+        $("#myth_03_content").toggle();
+        $("#myth_03_title").toggle();
+    });
+    $("#myth_03_box").mouseout(function(){
+        $("#myth_03_box").removeClass("myth-border-rollover");
+        $("#myth_03_box").addClass("myth-border");
+        $("#myth_03_content").toggle();
+        $("#myth_03_title").toggle();
+    });
 
-    }
+    $("#myth_04_box").mouseover(function(){
+        $("#myth_04_box").addClass("myth-border-rollover");
+        $("#myth_04_box").removeClass("myth-border");
+        $("#myth_04_content").toggle();
+        $("#myth_04_title").toggle();
+    });
+    $("#myth_04_box").mouseout(function(){
+        $("#myth_04_box").removeClass("myth-border-rollover");
+        $("#myth_04_box").addClass("myth-border");
+        $("#myth_04_content").toggle();
+        $("#myth_04_title").toggle();
+    });
 
+    $("#myth_05_box").mouseover(function(){
+        $("#myth_05_box").addClass("myth-border-rollover");
+        $("#myth_05_box").removeClass("myth-border");
+        $("#myth_05_content").toggle();
+        $("#myth_05_title").toggle();
+    });
+    $("#myth_05_box").mouseout(function(){
+        $("#myth_05_box").removeClass("myth-border-rollover");
+        $("#myth_05_box").addClass("myth-border");
+        $("#myth_05_content").toggle();
+        $("#myth_05_title").toggle();
+    });
+
+    $("#myth_06_box").mouseover(function(){
+        $("#myth_06_box").addClass("myth-border-rollover");
+        $("#myth_06_box").removeClass("myth-border");
+        $("#myth_06_content").toggle();
+        $("#myth_06_title").toggle();
+    });
+    $("#myth_06_box").mouseout(function(){
+        $("#myth_06_box").removeClass("myth-border-rollover");
+        $("#myth_06_box").addClass("myth-border");
+        $("#myth_06_content").toggle();
+        $("#myth_06_title").toggle();
+    });
+
+    $("#myth_07_box").mouseover(function(){
+        $("#myth_07_box").addClass("myth-border-rollover");
+        $("#myth_07_box").removeClass("myth-border");
+        $("#myth_07_content").toggle();
+        $("#myth_07_title").toggle();
+    });
+    $("#myth_07_box").mouseout(function(){
+        $("#myth_07_box").removeClass("myth-border-rollover");
+        $("#myth_07_box").addClass("myth-border");
+        $("#myth_07_content").toggle();
+        $("#myth_07_title").toggle();
+    });
+
+    $("#myth_08_box").mouseover(function(){
+        $("#myth_08_box").addClass("myth-border-rollover");
+        $("#myth_08_box").removeClass("myth-border");
+        $("#myth_08_content").toggle();
+        $("#myth_08_title").toggle();
+    });
+    $("#myth_08_box").mouseout(function(){
+        $("#myth_08_box").removeClass("myth-border-rollover");
+        $("#myth_08_box").addClass("myth-border");
+        $("#myth_08_content").toggle();
+        $("#myth_08_title").toggle();
+    });
+
+    $("#myth_09_box").mouseover(function(){
+        $("#myth_09_box").addClass("myth-border-rollover");
+        $("#myth_09_box").removeClass("myth-border");
+        $("#myth_09_content").toggle();
+        $("#myth_09_title").toggle();
+    });
+    $("#myth_09_box").mouseout(function(){
+        $("#myth_09_box").removeClass("myth-border-rollover");
+        $("#myth_09_box").addClass("myth-border");
+        $("#myth_09_content").toggle();
+        $("#myth_09_title").toggle();
+    });
+
+    $("#myth_10_box").mouseover(function(){
+        $("#myth_10_box").addClass("myth-border-rollover");
+        $("#myth_10_box").removeClass("myth-border");
+        $("#myth_10_content").toggle();
+        $("#myth_10_title").toggle();
+    });
+    $("#myth_10_box").mouseout(function(){
+        $("#myth_10_box").removeClass("myth-border-rollover");
+        $("#myth_10_box").addClass("myth-border");
+        $("#myth_10_content").toggle();
+        $("#myth_10_title").toggle();
+    });
 });
